@@ -434,11 +434,20 @@
     padding: 2rem 2.5rem;
     display: grid;
     grid-template-columns: 3rem 1fr auto;
-    gap: 1.5rem;
+    grid-template-rows: auto auto;
+    gap: 1.5rem 1.5rem;
     align-items: start;
     transition: background 0.2s;
     text-decoration: none;
     color: inherit;
+  }
+
+  .project-footer {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: -0.5rem;
   }
 
   .project-item:last-child { border-bottom: none; }
@@ -954,10 +963,13 @@
         <div class="project-title">Nsá — Live Engagement Platform</div>
         <div class="project-org">Kovo Labs · Content Lead</div>
         <div class="project-desc">Nsá is a zero-friction live quiz, poll, and game tool built for schools, events, and corporate teams. As Content Lead, I developed the product's positioning copy, audience messaging, and multi-month social media content strategy across platforms.</div>
+      </div>
+      <div class="project-arrow" style="opacity:0;">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">Product Copywriting</span><span class="tag">Content Strategy</span><span class="tag">Social Media</span><span class="tag">Launch Content</span><span class="tag">SEO Writing</span><span class="tag">Google Analytics</span><span class="tag">Google Search Console</span><span class="tag">Semrush</span>
         </div>
-        <div style="display:flex; gap:0.75rem; margin-top:0.75rem; flex-wrap:wrap;">
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
           <a href="https://playnsa.xyz" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--accent); text-decoration:none; border:1px solid var(--border2); padding:0.25rem 0.6rem; border-radius:4px;">↗ playnsa.xyz</a>
           <a href="https://x.com/play_nsa" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-decoration:none; border:1px solid var(--border); padding:0.25rem 0.6rem; border-radius:4px;">𝕏 @play_nsa</a>
           <a href="https://www.instagram.com/play_nsa/" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-decoration:none; border:1px solid var(--border); padding:0.25rem 0.6rem; border-radius:4px;">◎ @play_nsa</a>
@@ -965,7 +977,6 @@
           <a href="https://www.instagram.com/kovolabshq/" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-decoration:none; border:1px solid var(--border); padding:0.25rem 0.6rem; border-radius:4px;">◎ @kovolabshq</a>
         </div>
       </div>
-      <div class="project-arrow" style="opacity:0;">↗</div>
     </div>
 
     <a class="project-item" href="https://x.com/teepfinance" target="_blank">
@@ -974,15 +985,17 @@
         <div class="project-title">TEEP — The Payment Layer for Communities</div>
         <div class="project-org">Content Strategist & Social Media Manager · Sep 2026 – Present</div>
         <div class="project-desc">Built and manage the content and social media presence for TEEP, a crypto tipping and payments platform. Grew X following from 205 → 238, WhatsApp community from 0 → 171 members, and Instagram from 0 → 20 in the first month. Work covers content strategy, calendars, community content, threads, articles, and copywriting across X, Instagram, and WhatsApp.</div>
+      </div>
+      <div class="project-arrow">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">Content Strategy</span><span class="tag">Social Media</span><span class="tag">Crypto</span><span class="tag">Community Growth</span><span class="tag">Copywriting</span><span class="tag">Beta</span>
         </div>
-        <div style="display:flex; gap:0.75rem; margin-top:0.75rem; flex-wrap:wrap;">
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
           <a href="https://x.com/teepfinance" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-decoration:none; border:1px solid var(--border); padding:0.25rem 0.6rem; border-radius:4px;">𝕏 @teepfinance</a>
           <a href="https://www.instagram.com/teepfinance/" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-decoration:none; border:1px solid var(--border); padding:0.25rem 0.6rem; border-radius:4px;">◎ @teepfinance</a>
         </div>
       </div>
-      <div class="project-arrow">↗</div>
     </a>
 
     <a class="project-item" href="https://drive.google.com/file/d/1aQABaVstH5IQdmjc3jmfjzOfyC66-sAy/view?usp=drive_link" target="_blank">
@@ -991,11 +1004,13 @@
         <div class="project-title">Eagles' Magazine &amp; Blog</div>
         <div class="project-org">Great Faith Believers Assembly</div>
         <div class="project-desc">Started as a Content Writer for the Eagles Blog, writing long-form and short-form pieces. Grew into Editor-in-Chief &amp; Editorial Designer for the inaugural Annual Eagles' Magazine — leading the full project lifecycle from initiation to launch, coordinating contributors, managing timelines, and overseeing editorial design.</div>
+      </div>
+      <div class="project-arrow">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">Editorial</span><span class="tag">Leadership</span><span class="tag">Long-form</span><span class="tag">Canva Pro</span>
         </div>
       </div>
-      <div class="project-arrow">↗</div>
     </a>
 
     <a class="project-item" href="https://www.enistores.com" target="_blank">
@@ -1004,16 +1019,18 @@
         <div class="project-title">Eni Stores Website</div>
         <div class="project-org">Eni Stores Limited</div>
         <div class="project-desc">Developed website content that was both engaging and search-engine optimised — spanning copywriting, keyword integration, and content structure aligned with how the target audience searches. The site not only reads well, it ranks well.</div>
+      </div>
+      <div class="project-arrow">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">SEO Writing</span><span class="tag">Copywriting</span><span class="tag">Web Content</span><span class="tag">Google Analytics</span><span class="tag">Google Search Console</span><span class="tag">Semrush</span>
         </div>
-        <div style="display:flex; gap:0.75rem; margin-top:0.75rem; flex-wrap:wrap;">
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
           <a href="https://www.enistores.com" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--accent); text-decoration:none; border:1px solid var(--border2); padding:0.25rem 0.6rem; border-radius:4px;">↗ Website</a>
           <a href="https://www.instagram.com/enistoresuyo/" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-decoration:none; border:1px solid var(--border); padding:0.25rem 0.6rem; border-radius:4px;">◎ @enistoresuyo</a>
           <a href="https://www.facebook.com/share/1HyjAgCdbz/" target="_blank" style="font-family:var(--font-mono); font-size:0.72rem; color:var(--muted); text-decoration:none; border:1px solid var(--border); padding:0.25rem 0.6rem; border-radius:4px;">f Facebook</a>
         </div>
       </div>
-      <div class="project-arrow">↗</div>
     </a>
 
     <a class="project-item" href="http://www.jpub.org/journal-admin/uploads/articles/cm314.pdf" target="_blank">
@@ -1022,11 +1039,13 @@
         <div class="project-title">Smart Building Strategies for Seamless IoT Integration</div>
         <div class="project-org">Computational Methods Journal — Vol. 3, Issue 1, 2026</div>
         <div class="project-desc">Published research examining how IoT technologies can be retrofitted into existing buildings without structural remodelling, using Nigeria's Dakkada Tower as a case study. Combined a stakeholder survey of 54 respondents with Python-based energy simulations, finding a full IoT retrofit could deliver up to 27.7% energy savings.</div>
+      </div>
+      <div class="project-arrow">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">Research</span><span class="tag">Published</span><span class="tag">IoT</span><span class="tag">Python</span>
         </div>
       </div>
-      <div class="project-arrow">↗</div>
     </a>
 
     <a class="project-item" href="https://medium.com/@thescribblord" target="_blank">
@@ -1035,11 +1054,13 @@
         <div class="project-title">TheScribblord on Medium</div>
         <div class="project-org">Independent Writing</div>
         <div class="project-desc">Independent tech writing covering IoT, blockchain infrastructure, cryptocurrency, and entrepreneurship — written to make complex ideas accessible and engaging to a broad audience.</div>
+      </div>
+      <div class="project-arrow">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">Tech Writing</span><span class="tag">Blockchain</span><span class="tag">IoT</span><span class="tag">Medium</span>
         </div>
       </div>
-      <div class="project-arrow">↗</div>
     </a>
 
     <a class="project-item" href="https://gfbaeaglesministry.blogspot.com/?m=1" target="_blank">
@@ -1048,11 +1069,13 @@
         <div class="project-title">Eagles' Blog</div>
         <div class="project-org">Great Faith Believers Assembly — Content Writer</div>
         <div class="project-desc">Created long-form and short-form content including articles and features for the Eagles Blog, flexing across different content formats while maintaining a consistent voice aligned with the blog's identity.</div>
+      </div>
+      <div class="project-arrow">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">Blog Writing</span><span class="tag">Long-form</span><span class="tag">Short-form</span>
         </div>
       </div>
-      <div class="project-arrow">↗</div>
     </a>
 
     <div class="project-item" style="cursor:default;">
@@ -1061,11 +1084,13 @@
         <div class="project-title">PHPCONNECT</div>
         <div class="project-org">Content Team Member — 3 Years</div>
         <div class="project-desc">Three years contributing to PHPCONNECT's content operations, supporting consistent and quality content production. Built the rare skill of sustaining a coherent voice and content rhythm across an extended period.</div>
+      </div>
+      <div class="project-arrow" style="opacity:0;">↗</div>
+      <div class="project-footer">
         <div class="project-tags">
           <span class="tag">Content Ops</span><span class="tag">Consistency</span><span class="tag">Team Writing</span>
         </div>
       </div>
-      <div class="project-arrow" style="opacity:0;">↗</div>
     </div>
 
     <div class="project-item" style="cursor:default; border-bottom:none;">
